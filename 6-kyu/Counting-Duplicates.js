@@ -12,6 +12,5 @@ function duplicateCount(text) {
   for (const char in charCount) {
     if (charCount[char] > 1) sumOfDuplicate += 1;
   }
-  console.log(sumOfDuplicate);
   return sumOfDuplicate;
 }
